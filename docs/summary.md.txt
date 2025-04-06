@@ -1,0 +1,48 @@
+Git命令
+
+git clone https://github.com/你的GitHub用户名/2024-Task1-你的名字.git
+把个人仓库克隆到本地
+
+git add docs/ images/ README.md
+将文件添加到 Git 暂存区
+
+git commit -m "完成任务一：提交Grok回答文档和截图"
+提交到本地仓库
+
+git push origin main
+本地推送到GitHub仓库
+
+git clone https://github.com/YuhanCaelan/Plot
+拉取库到本地
+
+conda命令
+
+conda --version
+验证安装成功
+
+conda install numpy pandas matplotlib
+安装虚拟库
+
+conda env export > environment.yml
+导出环境依赖
+
+python plot.py
+在环境中运行程序生成图像
+
+pip install -r requirements.txt
+使用 Anaconda 创建虚拟环境并安装仓库中的依赖（该命令中最后一个点需要重打才能运行） 
+
+Anaconda 环境配置的优点与难点
+难点： 
+下载软件之后安装过程容易出错，配置环境变量需要摸索才知道，需正确操作需要听视频找资料问问题，一不下心弄错，非常难找出。对于新手不太友好。
+ 安装包太大，创建环境多，每个环境包多，下载时间长。
+安装包还会有冲突还需尝试
+优点：
+一个项目卡壳不影响另一个项目的进行，跟学过的linux操作系统相似
+
+Git 分支管理中的经验
+主分支放上线版本，开发分支搞日常开发。做新功能新建分支，做完删掉；线上出问题用热修复分支。开发从开发分支拉分支，做完合并回去。上线前拉发布分支测试，没问题再合并到主分支。平时多提交代码，写清改了啥，定期更新自己的分支，防止冲突。
+
+部署过程中遇到的问题及解决方案
+很多问题都是靠豆包还有B站解决，先思考需要怎么做，再学习问题解决方案，对比多个找最可行的
+
